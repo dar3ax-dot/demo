@@ -19,3 +19,14 @@ cross.style.display='none'
 
     
 }
+
+function gotoyt()
+{
+    window.location.href='https://www.youtube.com/@Dr3aGaming'
+}
+
+
+function gotott(){
+
+    window.location.href='https://www.tiktok.com/@dar3a_ff?is_from_webapp=1&sender_device=pc'
+}
