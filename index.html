@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="h-full w-full ">
+    
+ <header class="w-full h-15 bg-blue-950 flex justify-between flex-row gap-x-3 items-center fixed">
+            <h1 class="text-blue-200 text-4xl font-bold">Gerox</h1>
+            <nav>
+                <ul class=" flex flex-row gap-x-14 font-normal text-2xl text-white cursor-pointer max-sm:hidden">
+                    <li><i class="bi bi-controller"></i>الالعاب</li>
+                    <li><i class="bi bi-award-fill"></i>البطولات</li>
+                    <li>البث المباشر</li>
+                    <li  class="flex justify-between w-20"><i  class="bi bi-bag-check-fill"></i>المتجر </li>
+                </ul>
+               
+                
+            </nav>
+            <button class="px-5 font-medium text-{20px}
+             rounded-3xl py-2
+             text-cyan-50
+             bg-blue-600 cursor-pointer max-sm:hidden">التسجيل</button>
+
+              <div  class="text-white text-3xl
+              cursor-pointer 
+              hidden max-sm:block 
+              relative ">
+                
+                <i id="menu_button" class="bi bi-list"  ></i>
+              
+               <ul id="menu" class="absolute top-12 right-1 flex text-2xl flex-col gap-y-5 bg-gray-700 px-3 py-3 hidden">
+                <li class="max-w-full">البثوث </li>
+                <li  class="pt-5 ">البطولات</li>
+                <li class="pt-5">المتجر</li>
+                
+               </ul>
+               <div><i class="bi bi-x-lg"  id="cross"></i></div>
+                
+                </div>
+        </header>
+
+    <div class="h-full w-full bg-gray-950 box-border p-0 m-0  ">
+
+             <div class="flex w-full justify-between h-auto items-center max-sm:flex-col ">
+
+                 <img src='solo.png' alt="" class='w-109 max-sm:hidden'/>
+                   <div class="w-[700px] max-sm:w-full">
+                         <h1 class='text-blue-50 text-[60px] max-sm:text-5xl font-bold font-cairo py-3.5 max-sm:text-center max-sm:pt-22' >شارك في بطولات <br />فري فاير</h1>
+                         
+                         <p class=' text-white text-2xl pb-4 max-sm:text-center py-3.5'>انضم الى مجمتمع ملئ بالمحترفين</p>
+                         <div class="flex w-full max-sm:justify-center">
+                                <button class='text-white bg-blue-700 my-3
+                       rounded-3xl px-4 py-2 text-1xl
+                       max-sm:px-3 text-center flex justify-center
+                       cursor-pointer'> التسجيل</button>
+
+                         </div>
+                       
+                   </div>
+
+            </div>
+
+                <div class="w-[96%] bg-gray-800 rounded-2xl h-full m-auto">
+
+
+
+                    <h2 class='text-center pt-5 text-[60px] text-white max-sm:text-3xl'>شارك في بطولة النمط الثنائية </h2>
+
+                    <div class="flex w-full justify-around h-full">
+                        <img src='dua.png' class='max-sm:w-77'   />
+                       
+                    </div>
+                    
+                </div>
+
+                <div class="w-[96%] bg-gray-800 rounded-2xl h-full m-auto">
+
+
+
+                    <h2 class='text-center pt-5 text-[60px] text-white mt-3  max-sm:text-3xl'>شارك في بطولة الفرق</h2>
+
+                    <div class="flex w-full justify-around h-full">
+                        <img src='squad.png' class='w-[600px] ' />
+                       
+                    </div>
+                    
+                </div>
+              
+                <footer class="w-full py-12  ">
+            <div class="flex justify-center gap-x-7 h-auto items-center ">
+               
+                
+                <ul class="flex gap-x-6 text-amber-50 text-2xl">
+                    <li class="cursor-pointer"><i class="bi bi-youtube" ></i></li>
+                    <li  class="cursor-pointer"><i class="bi bi-tiktok"></i></li>
+                    <li  class="cursor-pointer"><i class="bi bi-instagram"></i></li>
+                </ul>
+               <h1 class="text-3xl text-blue-500">تابعنا </h1>
+                    
+   
+                
+            </div>
+            <div class=" w-[98%] h-[100px] m-auto rounded-b-2xl mt-10">
+                   <div class="px-5">
+                    
+                    <ul class="flex  justify-center gap-x-7 text-white pt-4 max-sm:flex-col">
+                        <li  class="cursor-pointer ">من نحن</li>
+                        <li  class="cursor-pointer">سياسة الخصوصية</li>
+                        <li  class="cursor-pointer">اتصل بنا </li>
+                        <li  class="cursor-pointer"> شركائنا</li>
+                        
+                    </ul>
+                    <p class="text-center text-[15px] text-white py-6 max-sm:py-1">2025 جميع الحقوق محفوظة </p>
+                   </div>
+            </div>
+        </footer>
+            </div>
+
+            <script src="script.js"></script>
+</body>
+</html>
